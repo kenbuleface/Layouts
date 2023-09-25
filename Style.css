@@ -1,0 +1,64 @@
+* {
+    Text-align:center;
+    Margin:0;
+    Padding:0;
+}
+
+.parent {
+    Background-color:green;
+    Min-height:100px;
+    Padding:2px;
+    Display:flex;
+}
+
+.child {
+    Min-height: 50px;
+    Min-width: 50px;
+}
+
+.red {
+    Background-color:red;
+}
+.yellow {
+    Background-color:yellow;
+}
+
+.example1 {
+    Justify-content:space-between;
+    Align-items:center;
+}
+
+.example2 {
+    Align-items: stretch;
+}
+
+.mainbox {
+    background-color:yellow;
+    Order:2;
+    Flex:3;
+}
+
+.aside1 {
+    background-color:lightblue;
+    Order:1;
+    Flex:1;
+}
+
+.aside2 {
+    Background-color:pink;
+    Order:3;
+    Flex:1;
+}
+
+
+/* This says all tags with class="child" that are inside of a parent with class="example3" */
+.example3   .child {
+    Flex:1;
+}
+
+.purple {
+    background-color:purple;
+}
+.orange {
+    background-color:orange;
+}
